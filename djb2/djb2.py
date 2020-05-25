@@ -2,7 +2,7 @@
 import re
 
 
-def djb2(str):
+def hashed(str):
 
     if(type(str) == list):
         print(algo("".join(str)))
